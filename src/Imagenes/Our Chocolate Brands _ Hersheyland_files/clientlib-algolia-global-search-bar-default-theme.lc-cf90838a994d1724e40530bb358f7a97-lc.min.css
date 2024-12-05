@@ -1,0 +1,42 @@
+.global-search-bar__icon-close{display:none}
+#instant-search-autocomplete{margin-top:17px;font-size:17px;border:1px solid #f5f5f5;background:#f5f5f5;border-radius:30px;width:100%}
+.ais-VoiceSearch-button{border:0;width:32px;height:32px;padding:0 0 4px 0;border-radius:50%;color:#97a1b7;background-color:transparent}
+.aa-Form:focus-within svg.aa-SubmitIcon{color:#003594}
+svg.aa-SubmitIcon{margin-top:6px;margin-right:10px;stroke:#003594;stroke-width:1;color:#003594}
+.search-form .voiceSearchBox{margin-right:4rem !important}
+.aa-Input{text-overflow:ellipsis}
+.voiceSearchBox .ais-VoiceSearch{margin-top:-3.5rem}
+.aa-Panel{z-index:9999999 !important;overflow:hidden !important;margin:52px 6px 0 !important;position:fixed;top:18px !important}
+.aa-Form:focus-within{box-shadow:0 0 0 2px #3333331f !important}
+@media screen and (min-width:992px){.aa-Form:focus-within{width:100%}
+.aa-Form{background:#f5f5f5;border-radius:30px;padding-left:20px;float:right;transition:width .12s ease-in-out}
+.aa-InputWrapper{order:1}
+.aa-InputWrapperPrefix{order:2}
+.aa-InputWrapperPrefix.inputnotEmpty{margin-right:20px}
+.marginTopDesktop{margin-top:12rem !important}
+}
+@media screen and (min-width:1200px){html:not([lang="en-US"]) .aa-Form:focus-within{width:103%}
+html[lang="en-US"] .aa-Form:focus-within{width:110%}
+}
+@media screen and (min-width:1441px){.aa-Form:focus-within{width:130%}
+}
+@media screen and (max-width:991px){#instant-search-autocomplete,.aa-Form{border-radius:6px}
+#instant-search-autocomplete{margin-top:8px}
+svg.aa-SubmitIcon{margin-top:6px;margin-right:10px;stroke:#003594;stroke-width:1;color:#003594}
+.mob-cancel-button{color:#003594;cursor:pointer}
+.aa-DetachedOverlay{position:inherit}
+.search-box-wrapper .searchbox,.search-box-wrapper .autocomplete{width:100%}
+.aa-Form:focus-within{box-shadow:none !important;border:none !important}
+.aa-form{transition:.12s ease-in-out}
+}
+@media screen and (max-width:680px){.aa-Panel{margin-top:0 !important}
+.marginTopDesktop{margin-top:0rem !important}
+}
+@media screen and (min-width:768px) and (max-width:1024px){.aa-Panel{margin-top:0 !important}
+}
+@media screen and (min-width:681px) and (max-width:991px){.marginTopDesktop{margin-top:12rem !important}
+}
+.global-search-bar label#search-icon{font-size:0;position:absolute}
+body.one-primary svg.aa-SubmitIcon,body.fulfilnutrition-primary svg.aa-SubmitIcon{stroke:#000;color:#000}
+@media screen and (min-width:768px) and (max-width:992px){.aa-DetachedOverlay .aa-DetachedContainer .aa-Panel.marginTopDesktop{margin-top:0 !important}
+}
